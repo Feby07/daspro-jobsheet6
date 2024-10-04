@@ -10,15 +10,15 @@ public class Pemilihan2Percobaan1Modifikasi207 {
         tahun = sc.nextInt();
 
         if (tahun % 400 == 0) {
-            System.out.println("Tahun Kabisat"); // Jika habis dibagi 400, kabisat
+            System.out.println("Tahun Kabisat"); 
         } else {
             if (tahun % 100 == 0) {
-                System.out.println("Bukan Tahun Kabisat"); // Jika habis dibagi 100 tapi tidak habis dibagi 400, bukan kabisat
+                System.out.println("Bukan Tahun Kabisat"); 
             } else {
                 if (tahun % 4 == 0) {
-                    System.out.println("Tahun Kabisat"); // Jika habis dibagi 4 dan tidak habis dibagi 100, kabisat
+                    System.out.println("Tahun Kabisat"); 
                 } else {
-                    System.out.println("Bukan Tahun Kabisat"); // Tidak habis dibagi 4, bukan kabisat
+                    System.out.println("Bukan Tahun Kabisat"); 
                 }
             }
         }
